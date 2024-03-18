@@ -1,0 +1,1090 @@
+(node:1444988) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home2/scentsec/api.scent-secret.com/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/api.scent-secret.com/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/api.scent-secret.com/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/api.scent-secret.com/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/register.js:34:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1444988) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1444988) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home2/scentsec/api.scent-secret.com/middleware/authMiddleware.js:56
+
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home2/scentsec/api.scent-secret.com/routes/auth.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.10.0
+/home2/scentsec/api.scent-secret.com/middleware/authMiddleware.js:56
+
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home2/scentsec/api.scent-secret.com/routes/auth.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.10.0
+/home2/scentsec/api.scent-secret.com/middleware/authMiddleware.js:56
+
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home2/scentsec/api.scent-secret.com/routes/auth.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.10.0
+/home2/scentsec/api.scent-secret.com/middleware/authMiddleware.js:56
+
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/home2/scentsec/api.scent-secret.com/routes/auth.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
+node:_http_outgoing:652
+    throw new ERR_HTTP_HEADERS_SENT('set');
+          ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home2/scentsec/nodevenv/api.scent-secret.com/20/lib/node_modules/express/lib/response.js:162:21)
+    at /home2/scentsec/api.scent-secret.com/controller/login.js:22:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v20.10.0
