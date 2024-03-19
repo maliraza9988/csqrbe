@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res)=>{
-    res.json(process.env.DB_HOST);
+    res.json("Welcome to CSQR App");
 });
 
 app.use('/auth', authRoutes);
